@@ -12,7 +12,8 @@
   },
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha --require @babel/register",
-    "build": "rm -rf build && npx babel src --out-dir build"
+    "build": "rm -rf build && npx babel src --out-dir build",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
