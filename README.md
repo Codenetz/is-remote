@@ -1,6 +1,10 @@
-# is-remote
+# is-remote [![Build Status](https://travis-ci.org/Codenetz/is-remote.svg?branch=master)](https://travis-ci.org/Codenetz/is-remote)
 
-Checks if given path is remote and if exists.
+Checks if given path is valid URL and exists remotely
 
-#### License
-...
+#### Usage
+
+```
+  import isRemote from 'is-remote';
+  await isRemote('https://raw.githubusercontent.com/Codenetz/is-remote/master/test/bar.png');
+```
