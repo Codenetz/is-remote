@@ -1,6 +1,6 @@
 # is-remote [![Build Status](https://travis-ci.org/Codenetz/is-remote.svg?branch=master)](https://travis-ci.org/Codenetz/is-remote)
 
-Checks if given path is valid URL and exists remotely
+Checks if given path is a valid URL and resource exists
 
 #### Usage
 
