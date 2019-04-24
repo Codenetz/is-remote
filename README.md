@@ -2,6 +2,12 @@
 
 Checks if given path is a valid URL and resource exists
 
+#### Installation
+
+```sh
+$ npm install is-remote --save
+```
+
 #### Usage
 
 ```
