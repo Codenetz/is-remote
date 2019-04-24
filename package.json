@@ -1,0 +1,40 @@
+{
+  "name": "is-remote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 5.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --require @babel/register",
+    "build": "rm -rf build && npx babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codenetz/is-remote.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codenetz/is-remote/issues"
+  },
+  "homepage": "https://github.com/Codenetz/is-remote#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "prettier": "^1.17.0"
+  }
+}
